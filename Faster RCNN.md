@@ -1,6 +1,6 @@
 # Faster R-CNN
 
-<img src="../image-20200401140941010.png" alt="image-20200401140941010" style="zoom: 25%;" />
+<img src="https://github.com/ChristopherSTAN/object-detection-notes/blob/master/image-20200401140941010.png" style="zoom: 25%;" />
 
 ![img](https://pic4.zhimg.com/80/v2-e64a99b38f411c337f538eb5f093bdf3_720w.jpg)
 
