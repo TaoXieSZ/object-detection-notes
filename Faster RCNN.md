@@ -1,6 +1,8 @@
 # Faster R-CNN
 
+<div align="center">
 <img src="https://github.com/ChristopherSTAN/object-detection-notes/blob/master/image-20200401140941010.png" align=center width="600px" />
+ </div>
 
 ![img](https://pic4.zhimg.com/80/v2-e64a99b38f411c337f538eb5f093bdf3_720w.jpg)
 
