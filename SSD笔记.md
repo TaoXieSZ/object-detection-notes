@@ -243,6 +243,7 @@ $$
 由于$x_{ij}^p$的存在，定位误差只对正样本进行计算。
 
 **Note:** $\hat{g}$为GT编码后的值，因为预测值$l$也是编码值，若设置variance_encoded_in_target=True，编码时要加上variance：
+
 $$
 \hat{g}_j^{cx}= \frac{(g^{cx}_j - d^{cx}_i)}{d^w_i\times variance[0]} \\
 
@@ -252,6 +253,7 @@ $$
 
 \hat{g}_i^h = \frac{\log(\frac{g^h_j}{d^h_i})}{variance[3]} \\
 $$
+
 对于置信度误差，其采用softmax loss：
 $$
 L_{conf}(x, c) = -\sum_{i\in Pos}^N x_{ij}^p \log(\hat{c}^p_i) - \sum_{i\in Neg} \log(\hat{c}^0_i),\\
